@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "name": "Northstar",
+  "name": "Zen",
   "author": "Kenny Heard",
   "themes": [
     {
-      "name": "Northstar Dark",
+      "name": "Zen Dark",
       "appearance": "dark",
       "style": {
         "border": "#404040ff",
@@ -400,7 +400,7 @@
       }
     },
     {
-      "name": "Northstar Light",
+      "name": "Zen Light",
       "appearance": "light",
       "style": {
         "border": "#d4d4d4ff",
