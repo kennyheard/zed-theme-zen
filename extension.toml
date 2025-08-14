@@ -1,0 +1,7 @@
+id = "zen"
+name = "Zen"
+version = "0.0.1"
+schema_version = 1
+authors = ["Kenny Heard <work@kennyheard.dev>"]
+description = "A meticulously crafted theme inspired by the tranquil simplicity of Japanese zen gardens."
+repository = "https://github.com/kennyheard/zed-theme-zen"
