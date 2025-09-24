@@ -1,18 +1,18 @@
 <div align="center">
-  <img src="/assets/icon.svg" width="160" />
+  <img src="/assets/icon.svg" width="180" />
   <br />
   <h1>Zen</h1>
-  <p>A <a href="https://zed.dev">Zed</a> theme inspired by the tranquil simplicity of Japanese zen gardens.</p>
+  <p>A <a href="https://zed.dev">Zed</a> theme inspired by the clarity and calm of Japanese zen gardens.</p>
 </div>
 
 ## Features
 
-Zen is crafted for developers who value simplicity and focus. It creates a clean workspace where visual noise fades away, allowing you to concentrate fully on your code.
+Zen is made for engineers who value simplicity and focus. Its muted palette and understated syntax create an environment that feels clear and unobtrusive.
 
-- **Clean, spacious interface**: Thoughtful use of whitespace and gentle borders create breathing room around your work, reducing visual clutter and helping you maintain focus.
-- **Restrained colour choices**: Built on a foundation of warm neutral tones with carefully placed teal accents that highlight important elements without overwhelming the overall aesthetic or breaking your concentration.
-- **Quiet syntax highlighting**: Code elements use soft, muted tones that support readability while staying out of your way, allowing the structure and logic of your code to emerge naturally without unnecessary distractions.
-- **Balanced light and dark modes**: Both themes share the same thoughtful contrast approach and include subtle interface details, ensuring a consistent experience whether you prefer light or dark environments.
+- **Refined tones**: Neutral foundations with careful accents reduce visual strain.
+- **Quiet syntax**: Structure is shown through gentle shifts in tone, without relying heavily on colour.
+- **Minimal impression**: A restrained approach avoids noise and complexity.
+- **Tuned contrast**: Consistency across light and dark modes creates a seamless experience.
 
 ## Previews
 
@@ -44,20 +44,20 @@ Zen is crafted for developers who value simplicity and focus. It creates a clean
 
 ## Editor Configuration (Optional)
 
-The following configuration is one that I personally choose to complement Zen's design philosophy:
+The following configuration is one that I personally choose to complement Zen (as seen in the above previews):
 
 ```json
 {
-  "ui_font_family": "SF Pro",
   "ui_font_size": 14,
   "ui_font_weight": 400,
-  "buffer_font_family": "Geist Mono",
+  "ui_font_family": "SF Pro",
   "buffer_font_size": 12,
   "buffer_font_weight": 400,
+  "buffer_font_family": "Geist Mono",
   "buffer_line_height": { "custom": 2.5 },
+  "title_bar": { "show_branch_icon": true },
+  "tabs": { "close_position": "left" },
   "project_panel": { "git_status": false },
-  "scroll_beyond_last_line": "off"
+  "scroll_beyond_last_line": "off",
 }
 ```
-
-This configuration helps reduce visual noise to create an uncluttered, distraction-free experience.
