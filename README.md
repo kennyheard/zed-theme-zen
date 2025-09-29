@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="/assets/icon.svg" width="180" />
+  <img src="/assets/icon.svg" width="100" />
   <br />
   <h1>Zen</h1>
-  <p>A <a href="https://zed.dev">Zed</a> theme inspired by the clarity and calm of Japanese zen gardens.</p>
+  <p>A <a href="https://zed.dev">Zed</a> theme designed with clarity, calm, and subtle restraint.</p>
 </div>
 
 ## Features
@@ -12,7 +12,8 @@ Zen is made for engineers who value simplicity and focus. Its muted palette and 
 - **Refined tones**: Neutral foundations with careful accents reduce visual strain.
 - **Quiet syntax**: Structure is shown through gentle shifts in tone, without relying heavily on colour.
 - **Minimal impression**: A restrained approach avoids noise and complexity.
-- **Tuned contrast**: Consistency across light and dark modes creates a seamless experience.
+- **Seamless modes**: Consistent contrast ensures smooth transitions between light and dark themes.
+- **Complete coverage**: Every Zed feature is styled without gaps or omissions.
 
 ## Previews
 
