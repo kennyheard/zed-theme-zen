@@ -1,7 +1,7 @@
 id = "zen"
 name = "Zen"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Kenny Heard <work@kennyheard.dev>"]
-description = "A theme inspired by the clarity and calm of Japanese zen gardens."
+description = "Designed for clarity and focus."
 repository = "https://github.com/kennyheard/zed-theme-zen"

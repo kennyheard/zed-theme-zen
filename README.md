@@ -1,13 +1,14 @@
 <div align="center">
-  <img src="/assets/icon.svg" width="100" />
+  <img src="/assets/icon-dark.svg#gh-light-mode-only" width="100" />
+  <img src="/assets/icon-light.svg#gh-dark-mode-only" width="100" />
   <br />
   <h1>Zen</h1>
-  <p>A <a href="https://zed.dev">Zed</a> theme designed with clarity, calm, and subtle restraint.</p>
+  <p>A <a href="https://zed.dev">Zed</a> theme designed for clarity and focus.</p>
 </div>
 
 ## Features
 
-Zen is made for engineers who value simplicity and focus. Its muted palette and understated syntax create an environment that feels clear and unobtrusive.
+Zen is made for engineers who value simplicity. Its muted palette and understated syntax create an environment that feels clear and unobtrusive.
 
 - **Refined tones**: Neutral foundations with careful accents reduce visual strain.
 - **Quiet syntax**: Structure is shown through gentle shifts in tone, without relying heavily on colour.
