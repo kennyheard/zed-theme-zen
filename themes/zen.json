@@ -45,6 +45,7 @@
         "tab.inactive_background": "#171717ff",
         "tab.active_background": "#0a0a0aff",
         "search.match_background": "#404040cc",
+        "search.active_match_background": "#14b8a633",
         "panel.background": "#171717ff",
         "panel.focused_border": "#737373ff",
         "pane.focused_border": "#737373ff",
@@ -98,6 +99,8 @@
         "link_text.hover": "#a3a3a3ff",
         "version_control.added": "#4ade80cc",
         "version_control.modified": "#a3a3a3ff",
+        "version_control.word_added": "#4ade8066",
+        "version_control.word_deleted": "#f8717166",
         "version_control.deleted": "#f87171cc",
         "version_control.conflict_marker.ours": "#4ade80ff",
         "version_control.conflict_marker.theirs": "#f87171ff",
@@ -321,6 +324,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "punctuation.markup": {
+            "color": "#737373ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "punctuation.special": {
             "color": "#a3a3a3ff",
             "font_style": null,
@@ -441,6 +449,7 @@
         "tab.inactive_background": "#f5f5f5ff",
         "tab.active_background": "#fafafaff",
         "search.match_background": "#d4d4d4cc",
+        "search.active_match_background": "#14b8a633",
         "panel.background": "#f5f5f5ff",
         "panel.focused_border": "#737373ff",
         "pane.focused_border": "#737373ff",
@@ -494,6 +503,8 @@
         "link_text.hover": "#525252ff",
         "version_control.added": "#16a34acc",
         "version_control.modified": "#525252ff",
+        "version_control.word_added": "#16a34a66",
+        "version_control.word_deleted": "#dc262666",
         "version_control.deleted": "#dc2626cc",
         "version_control.conflict_marker.ours": "#16a34aff",
         "version_control.conflict_marker.theirs": "#dc2626ff",
@@ -713,6 +724,11 @@
             "font_weight": null
           },
           "punctuation.list_marker": {
+            "color": "#737373ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.markup": {
             "color": "#737373ff",
             "font_style": null,
             "font_weight": null
