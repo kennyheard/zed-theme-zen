@@ -1,12 +1,16 @@
 <div align="center">
-  <img src="/assets/icon-dark.svg#gh-light-mode-only" width="100" />
-  <img src="/assets/icon-light.svg#gh-dark-mode-only" width="100" />
-  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/assets/icon-light.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="/assets/icon-dark.svg" />
+    <img src="/assets/icon-dark.svg" alt="Zen icon" width="120" />
+  </picture>
   <h1>Zen</h1>
   <p>A <a href="https://zed.dev">Zed</a> theme designed for clarity and focus.</p>
 </div>
 
-## Features
+<br />
+
+## Overview
 
 Zen is made for engineers who value simplicity. Its muted palette and understated syntax create an environment that feels clear and unobtrusive.
 
@@ -16,15 +20,21 @@ Zen is made for engineers who value simplicity. Its muted palette and understate
 - **Seamless modes**: Consistent contrast ensures smooth transitions between light and dark themes.
 - **Complete coverage**: Every Zed feature is styled without gaps or omissions.
 
-## Previews
+<br />
 
-<div align="center">
-  <img src="/assets/zen-light.png" alt="Zen Light" width="100%" />
-  <p><em>Zen Light</em></p>
-  <br />
-  <img src="/assets/zen-dark.png" alt="Zen Dark" width="100%" />
-  <p><em>Zen Dark</em></p>
-</div>
+<figure>
+  <img src="/assets/zen-light.png" alt="The Zen theme rendered in Zed's light mode" width="100%" />
+  <p align="center"><sub><em>Zen Light.</em></sub></p>
+</figure>
+
+<br />
+
+<figure>
+  <img src="/assets/zen-dark.png" alt="The Zen theme rendered in Zed's dark mode" width="100%" />
+  <p align="center"><sub><em>Zen Dark.</em></sub></p>
+</figure>
+
+<br />
 
 ## Installation
 
@@ -44,22 +54,23 @@ Zen is made for engineers who value simplicity. Its muted palette and understate
    - **Linux**: `~/.config/zed/themes/`
 3. Restart Zed and select the theme from the theme picker.
 
+<br />
+
 ## Editor Configuration (Optional)
 
 The following configuration is one that I personally choose to complement Zen (as seen in the above previews):
 
 ```json
 {
+  "ui_font_family": "SF Pro Text",
   "ui_font_size": 14,
   "ui_font_weight": 400,
-  "ui_font_family": "SF Pro",
+  "buffer_font_family": "Geist Mono",
   "buffer_font_size": 12,
   "buffer_font_weight": 400,
-  "buffer_font_family": "Geist Mono",
   "buffer_line_height": { "custom": 2.5 },
-  "title_bar": { "show_branch_icon": true },
+  "scroll_beyond_last_line": "off",
   "tabs": { "close_position": "left" },
   "project_panel": { "git_status": false },
-  "scroll_beyond_last_line": "off",
 }
 ```
