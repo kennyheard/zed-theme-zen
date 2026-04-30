@@ -219,6 +219,16 @@
             "font_style": null,
             "font_weight": null
           },
+          "diff.minus": {
+            "color": "#f87171ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "diff.plus": {
+            "color": "#4ade80ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "embedded": {
             "color": "#d4d4d4ff",
             "font_style": null,
@@ -620,6 +630,16 @@
           },
           "constructor": {
             "color": "#737373ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "diff.minus": {
+            "color": "#dc2626ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "diff.plus": {
+            "color": "#16a34aff",
             "font_style": null,
             "font_weight": null
           },
