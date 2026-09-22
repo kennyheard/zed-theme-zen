@@ -6,13 +6,13 @@ A Zed editor theme. Single bundle at `themes/zen.json` containing Zen Dark and Z
 
 ## Palette
 
-**Neutrals.** Tailwind-style scale from `#fafafa` (N50) to `#0a0a0a` (N950), plus `#ffffff` and `#000000`.
+**Neutrals.** Zinc scale from `#fafafa` (Z50) to `#09090b` (Z950), plus `#ffffff` and `#000000`.
 
 **Accent.** Teal. Primary is `#14b8a6` (T500). Functions and types use T400 (`#2dd4bf`) in dark mode and T600 (`#0d9488`) in light mode.
 
-**State colours.** Tailwind 600 variants in light mode (red, green, blue, amber). Tailwind 400 variants in dark mode. Used for `error`, `success`, `info`, `warning` / `hint`, and version-control highlights.
+**State colours.** 600 variants in light mode (red, green, blue, amber). 400 variants in dark mode. Used for `error`, `success`, `info`, `warning` / `hint`, and version-control highlights.
 
-**Symmetrical mapping.** Light and dark mirror across the scale: N50↔N950, N100↔N900, N200↔N800, N300↔N700, N400↔N600, N500 unchanged. Editor backgrounds at N50 / N950, panels at N100 / N900, frame at N200 / N800.
+**Symmetrical mapping.** Light and dark mirror across the scale: Z50↔Z950, Z100↔Z900, Z200↔Z800, Z300↔Z700, Z400↔Z600, Z500 unchanged. Editor, active tab, and toolbar backgrounds at Z50 / Z950, panels at Z100 / Z900, frame at Z200 / Z800.
 
 ## Opacity Scale
 
