@@ -405,6 +405,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "variable.parameter": {
+            "color": "#a3a3a3ff",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable.special": {
             "color": "#a3a3a3ff",
             "font_style": null,
@@ -816,6 +821,11 @@
             "font_weight": null
           },
           "variable": {
+            "color": "#525252ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
             "color": "#525252ff",
             "font_style": null,
             "font_weight": null
