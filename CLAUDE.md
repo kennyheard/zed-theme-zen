@@ -16,12 +16,12 @@ A Zed editor theme. Single bundle at `themes/zen.json` containing Zen Dark and Z
 
 ## Opacity Scale
 
-- `1a` (10%) — player selections.
-- `33` (20%) — UI state backgrounds, editor guides, scrollbar thumbs, word-level diff highlights.
-- `66` (40%) — document highlights, created/deleted state backgrounds.
-- `99` (60%) — reserved.
-- `cc` (80%) — version-control indicators, search highlights, active line backgrounds.
-- `ff` (100%) — solid colours, borders, syntax tokens, text.
+- `1a` (10%) — player selections, ghost element hover/selected, resting scrollbar thumb.
+- `33` (20%) — status backgrounds, editor guides, active search match, document read highlights, word-level diff highlights.
+- `66` (40%) — element hover/active/selected, scrollbar thumb border, document write highlights, created/deleted state backgrounds.
+- `99` (60%) — scrollbar track, scrollbar thumb hover/active.
+- `cc` (80%) — borders, version-control added/deleted indicators, search highlights, active line backgrounds, drop targets.
+- `ff` (100%) — solid colours, focus borders, syntax tokens, text. Keep syntax and text solid; opacity on text renders unpredictably.
 
 ## Key Ordering
 
